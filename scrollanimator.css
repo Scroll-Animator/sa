@@ -430,7 +430,7 @@ html {
 
 
 /* ONLOAD SHIFT*/
-.onload-shift { animation: smoothShift ease-in-out 1 forwards ; opacity: 0; } 
+.onload-shift { animation: smoothShift 1s ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes smoothShift {
@@ -449,7 +449,7 @@ html {
         opacity: 1;
     }
 }
-.onload-shift-down { animation: obottom ease-in-out 1 forwards ; opacity: 0; } 
+.onload-shift-down { animation: obottom 1s ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes obottom {
@@ -468,7 +468,7 @@ html {
         opacity: 1;
     }
 }
-.onload-shift-up { animation: otop ease-in-out 1 forwards ; opacity: 0; } 
+.onload-shift-up { animation: otop 1s ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes otop {
@@ -498,7 +498,7 @@ html {
 }
 
 .cursorBtn {
-    animation: cursorBtn ease-in-out 1 forwards;
+    animation: cursorBtn 1s ease-in-out 1 forwards;
 }
 
 
