@@ -10,12 +10,12 @@ Similar to the AOS library however less complicated and more simple! Adjustments
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.2-beta/scrollanimator.css"
+  href="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.3-beta/scrollanimator.css"
 />
 ```
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.2-beta/scrollanimator.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.3-beta/scrollanimator.js"></script>
 ```
 
 # Usage
@@ -44,6 +44,22 @@ Slides object in from the right
 
 ```html
 <div class="sa-right"></div>
+```
+
+- **sa-up**:
+
+Slide object in from above
+
+```html
+<div class="sa-up"></div>
+```
+
+- **sa-down**:
+
+Slides object in from below
+
+```html
+<div class="sa-down"></div>
 ```
 
 - **sa-zoom**:
@@ -151,22 +167,22 @@ Slides object in from the left with a bounce
 
 <span style="color:orange">NOTE : This uses the animation property, you must replace **sa** with **animation** for durations and delays to work properly.</span>
 
-- **onload-top**:
+- **onload-up**:
 
 Slides object in from the top with a bounce
 
 ```html
-<div class="onload-top"></div>
+<div class="onload-up"></div>
 ```
 
 <span style="color:orange">NOTE : This uses the animation property, you must replace **sa** with **animation** for durations and delays to work properly.</span>
 
-- **onload-bottom**:
+- **onload-down**:
 
 Slides object in from the bottom with a bounce
 
 ```html
-<div class="onload-bottom"></div>
+<div class="onload-down"></div>
 ```
 
 <span style="color:orange">NOTE : This uses the animation property, you must replace **sa** with **animation** for durations and delays to work properly.</span>

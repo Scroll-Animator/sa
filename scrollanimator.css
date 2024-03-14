@@ -56,24 +56,24 @@ html {
     
 }
 
-.sa-bottom {
+.sa-down {
     transform: translateY(250px);
     opacity: 0;
     transition: 1s;
 }
 
-.sa-bottom.active {
+.sa-down.active {
     transform: translateY(0);
     opacity: 1;
 }
 
-.sa-top {
+.sa-up {
     transform: translateY(-250px);
     opacity: 0;
     transition: 1s;
 }
 
-.sa-top.active {
+.sa-up.active {
     transform: translateY(0);
     opacity: 1;
 }
@@ -449,7 +449,7 @@ html {
         opacity: 1;
     }
 }
-.onload-bottom { animation: obottom ease-in-out 1 forwards ; opacity: 0; } 
+.onload-shift-down { animation: obottom ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes obottom {
@@ -468,7 +468,7 @@ html {
         opacity: 1;
     }
 }
-.onload-top { animation: otop ease-in-out 1 forwards ; opacity: 0; } 
+.onload-shift-up { animation: otop ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes otop {

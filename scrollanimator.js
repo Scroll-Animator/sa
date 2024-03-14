@@ -2,9 +2,19 @@
 // 1. Add support for elements to be hidden after they have been scrolled past 
 // 2. Add support for revealing elements on page reload
 
+document.addEventListener("DOMContentLoaded", function () {
+    let validLoadClasses = [".onload-shift", ".onload-zoom", ".onload-flip", ".onload-right", ".onload-shift", ".onload-shift-down", ".onload-shift-up"];
+    let loadEle = document.querySelectorAll(validLoadClasses.join(','));
+
+    for (var i = 0; i < loadEle.length; i++) {
+        loadEle[i].classList.add("active");
+    }
+});
+
+
 
 var triggerThreshold = 250; // Default trigger threshold, Controls where the animation is triggered in accordance to the trigger element top position.
-let validClasses = [".sa-group" ,".sa", ".sa-zoom", ".sa-flip", ".sa-right", ".sa-shift", ".sa-custom", ".sa-bottom", ".sa-top"];
+let validClasses = [".sa-group" ,".sa", ".sa-zoom", ".sa-flip", ".sa-right", ".sa-shift", ".sa-custom", ".sa-down", ".sa-up"];
 
 function reveal(classNames, elementVisible) {
     var elements = document.querySelectorAll(classNames.join(','));
