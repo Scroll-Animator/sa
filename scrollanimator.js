@@ -35,7 +35,6 @@ function reveal(classNames, elementVisible) {
                 break;
             case 4:
                 if (elementTop < windowHeight - elementVisible) {break;}
-                if (elements[i].classList.contains("sa-freeze")) {break;}
                 elements[i].classList.remove("active");
                 removeActiveChildren(elements[i], elements);
                 break;
@@ -46,9 +45,10 @@ function reveal(classNames, elementVisible) {
                 break;
             case 6:
                 if (elementTop < windowHeight - elementVisible) {break;}
-                if (elements[i].classList.contains("sa-freeze")) {break;}
                 elements[i].classList.remove("active");
                 nestedRemoveActiveChildren(elements[i], elements);
+                break;
+            case 7:
                 break;
         }
     }
@@ -60,6 +60,10 @@ window.addEventListener("scroll", function () {
 
 function caseOperator(index, ElementTop, WindowHeight, ElementVisible, ParentEle, classNames, elements) {
     
+    if (elements[index].classList.contains("sa-freeze") && elements[index].classList.contains("active")) {
+        return 7;
+    }
+
     // Add Active Class to Elements
     if (ElementTop < WindowHeight - ElementVisible && !elements[index].classList.contains("sa-group") && !ParentEle.classList.contains("sa-group")) {
         return 1;

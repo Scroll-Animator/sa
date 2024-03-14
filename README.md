@@ -299,6 +299,22 @@ Easing Controls how the animation plays throughout it's duration
 
 <br>
 
+## ❄️ Freeze Animations
+Prevents animations from disappearing when scrolling back up. (Limits animation to run once)
+<details>
+<summary><strong>View Freeze Syntax</strong></summary>
+<br>
+
+- **sa-freeze**
+
+```html
+  <h3 class="sa sa-freeze">Some Head Text!</h3>
+```
+
+</details>
+
+<br>
+
 ## 🔗 Animation Groups
 
 Animation Grouping is a way to group scroll animations
