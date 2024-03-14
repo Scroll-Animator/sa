@@ -24,7 +24,7 @@ Similar to the AOS library however less complicated and more simple! Adjustments
 
 <br>
 
-## 💖 On-scroll Animations
+## 👆 On-scroll Animations
 
 <details>
 <summary><strong>View On Scroll Animation Syntax</strong></summary>

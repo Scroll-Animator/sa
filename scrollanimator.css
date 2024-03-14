@@ -86,7 +86,7 @@ html {
 }
 
 .sa-shift.active {
-    animation: smoothShift 0.4s ease-in-out 0s 1 forwards;
+    animation: smoothShift ease-in-out 1 forwards;
 }
 
 /* Reversing Shift on Scroll */
@@ -429,8 +429,8 @@ html {
 /* END OF DELAYS */
 
 
-/* ONLOAD SHIFT (Default 1s)*/
-.onload-shift { animation: smoothShift 0.4s ease-in-out 1 forwards ; opacity: 0; } 
+/* ONLOAD SHIFT*/
+.onload-shift { animation: smoothShift ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes smoothShift {
@@ -449,7 +449,7 @@ html {
         opacity: 1;
     }
 }
-.onload-bottom { animation: obottom 0.4s ease-in-out 1 forwards ; opacity: 0; } 
+.onload-bottom { animation: obottom ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes obottom {
@@ -468,7 +468,7 @@ html {
         opacity: 1;
     }
 }
-.onload-top { animation: otop 0.4s ease-in-out 1 forwards ; opacity: 0; } 
+.onload-top { animation: otop ease-in-out 1 forwards ; opacity: 0; } 
 
 
 @keyframes otop {
@@ -498,7 +498,7 @@ html {
 }
 
 .cursorBtn {
-    animation: cursorBtn 0.4s ease-in-out 0s 1 forwards;
+    animation: cursorBtn ease-in-out 1 forwards;
 }
 
 
