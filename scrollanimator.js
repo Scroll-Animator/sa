@@ -1,7 +1,6 @@
 // TODO LIST:
-// 1. Add support for single execution of the reveal function
-// 2. Add support for elements to be hidden after they have been scrolled past 
-// 3. Add support for revealing elements on page reload
+// 1. Add support for elements to be hidden after they have been scrolled past 
+// 2. Add support for revealing elements on page reload
 
 
 var triggerThreshold = 250; // Default trigger threshold, Controls where the animation is triggered in accordance to the trigger element top position.
