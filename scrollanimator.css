@@ -454,8 +454,14 @@ html {
 
 @keyframes obottom {
     0% {
-        transform: translate(0%, 500px);
+        transform: translate(0%, 6%);
         opacity: 0;
+        
+        
+    }
+    40% {
+        transform: translate(0%, -3%);
+        opacity: 1;
     }
     100% {
         transform: translate(0%, 0%);
@@ -467,8 +473,14 @@ html {
 
 @keyframes otop {
     0% {
-        transform: translate(0%, 500px);
+        transform: translate(0%, -6%);
         opacity: 0;
+        
+        
+    }
+    40% {
+        transform: translate(0%, 3%);
+        opacity: 1;
     }
     100% {
         transform: translate(0%, 0%);
