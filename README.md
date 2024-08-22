@@ -10,12 +10,12 @@ Similar to the AOS library however less complicated and more simple! Adjustments
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.3-beta/scrollanimator.css"
+  href="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.4-beta/scrollanimator.css"
 />
 ```
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.3-beta/scrollanimator.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Scroll-Animator/sa@v0.1.4-beta/scrollanimator.js"></script>
 ```
 
 # Usage
